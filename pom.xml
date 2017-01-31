@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.idea.examples.ambit</groupId>
-	<artifactId>ambit-appdomain-example</artifactId>
-	<name>ambit-appdomain-example</name>
+	<artifactId>ambit-appdomain</artifactId>
+	<name>ambit-appdomain</name>
 	<version>2.0.0</version>
 	<description>Ambit Applicability domain Example</description>
 	<distributionManagement>
@@ -85,7 +85,7 @@
 		<ambit.version>3.0.3-SNAPSHOT</ambit.version>
 	</properties>
 	<build>
-		<finalName>example-ambit-appdomain</finalName>
+		<finalName>ambit-appdomain</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
