@@ -4,7 +4,7 @@
 
 * Download at https://zenodo.org/account/settings/github/repository/ideaconsult/appdomain
 
-[ambit-model](http://ambit.sourceforge.net/download_ambitlibs.html) package is an implementation of methods described in
+[ambit-model](http://ambit.sourceforge.net/AMBIT2-LIBS/apidocs/) package is an implementation of methods described in
 
 
 * [Jaworska, J., Nikolova-Jeliazkova, N., & Aldenberg, T. (2005). QSAR applicabilty domain estimation by projection of the training set descriptor space: a review. Alternatives to Laboratory Animals ATLA, 33(5), 445–459.](http://www.ncbi.nlm.nih.gov/pubmed/16268757)
@@ -12,7 +12,7 @@
 * [Netzeva, T. I., Worth, A., Aldenberg, T., Benigni, R., Cronin, M. T. D., Gramatica, P., … Yang, C. (2005). Current status of methods for defining the applicability domain of (quantitative) structure-activity relationships. The report and recommendations of ECVAM Workshop 52. Alternatives to Laboratory Animals ATLA.](http://www.ncbi.nlm.nih.gov/pubmed/16180989)
 * [Jaworska, J., & Nikolova-Jeliazkova, N. (2007). How can structural similarity analysis help in category formation? SAR and QSAR in Environmental Research, 18(3-4), 195–207. doi:10.1080/10629360701306050](http://www.ncbi.nlm.nih.gov/pubmed/17514565)
 
-The [appdomain](https://github.com/ideaconsult/appdomain) project is a command line application, demonstrating how to use [ambit-model](http://ambit.sourceforge.net/download_ambitlibs.html) package. 
+The [appdomain](https://github.com/ideaconsult/appdomain) project is a command line application, demonstrating how to use [ambit-model](http://ambit.sourceforge.net/AMBIT2-LIBS/apidocs) package. 
 Alternatively, the applicability domain algorithms are implemented in [Ambit Discovery](http://ambit.sourceforge.net/download_ambitdiscovery.html) desktop application as well as REST web services in [Ambit web application](http://ambit.sourceforge.net/download_ambitrest.html).
 
 The applicability domain is estimated based on the data in the training set only (independent of the model). The applicability domain estimation is reported for the test set.  You may specify one and the same file as both test and training set. The input file formats are recognised by extension (e.g. .csv, .sdf, .cml). 
