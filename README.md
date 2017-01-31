@@ -1,5 +1,9 @@
 ###[AMBIT](http://ambit.sf.net) applicability domain estimation examples
 
+* Cite as [![DOI](https://zenodo.org/badge/80501175.svg)](https://zenodo.org/badge/latestdoi/80501175) 
+
+* Download at https://zenodo.org/account/settings/github/repository/ideaconsult/appdomain
+
 [ambit-model](http://ambit.sourceforge.net/download_ambitlibs.html) package is an implementation of methods described in
 
 
@@ -19,7 +23,7 @@ The result file consists of all the properties in the test set, the predicted me
 Run
 ---
 
-    >java -jar ambit-appdomain-example-jar-with-dependencies.jar -h
+    >java -jar ambit-appdomain-jar-with-dependencies.jar -h
     
 
 ````
@@ -95,22 +99,21 @@ Download
 
 ###Command line application
 
-   * Download [1.0.0 release](http://ambit.uni-plovdiv.bg:8083/nexus/service/local/repositories/releases/content/net/idea/examples/ambit/ambit-appdomain-example/1.0.0/ambit-appdomain-example-1.0.0-jar-with-dependencies.jar)
+   * Download [2.0.0 release](https://zenodo.org/account/settings/github/repository/ideaconsult/appdomain)
 
-   * Download from [Maven repository](http://ambit.uni-plovdiv.bg:8083/nexus/index.html#nexus-search;gav~~ambit-appdomain-example~~~) 
+   * Download from [Maven repository](https://nexus.ideaconsult.net/#nexus-search;quick~appdomain) 
 
 ###Maven artifact
 
     <dependency>
         <groupId>net.idea.examples.ambit</groupId>
-        <artifactId>ambit-appdomain-example</artifactId>
-        <version>1.0.0</version>
+        <artifactId>ambit-appdomain</artifactId>
+        <version>2.0.0</version>
     </dependency>
     <repository>
-        <id>ambit-plovdiv-releases</id>
-        <url>http://ambit.uni-plovdiv.bg:8083/nexus/content/repositories/releases</url>
-    </repository>
-
+		<id>nexus-idea-releases</id>
+		<url>https://nexus.ideaconsult.net/content/repositories/releases</url>
+	</repository>
 
                              
 Build
@@ -118,7 +121,7 @@ Build
 
     >mvn clean package
 
-The executable file is at target/ambit-appdomain-example-jar-with-dependencies.jar
+The executable file is at target/ambit-appdomain-jar-with-dependencies.jar
 
-    >java -jar target/ambit-appdomain-example-jar-with-dependencies.jar -h  
+    >java -jar target/ambit-appdomain-jar-with-dependencies.jar -h  
 
