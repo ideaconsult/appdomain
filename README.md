@@ -58,21 +58,21 @@ usage: net.idea.example.ambit.appdomain.MainApp
 
 ````
 
-####Example 1
+#### Example 1
 Reads the demo files and apply applicability domain by Tanimoto consensus fingerprint,
 assuming all of the training set compounds are in the app.domain. Results saved in result.sdf file. : 
 ````
 java -jar example-ambit-appdomain-jar-with-dependencies.jar	-m _modeFINGERPRINTS_CONSENSUS -d mutagenicity -o result.csv
 ````
 
-####Example 2
+#### Example 2
 Reads the demo files and apply applicability domain by probability density estimation,
 assuming all of the training set compounds are in the app.domain. : 
 ````
 java -jar example-ambit-appdomain-jar-with-dependencies.jar	-m _modeDENSITY -d mutagenicity
 ````
 
-####Example 3
+#### Example 3
 Reads training and test CSV files and apply applicability domain by probability density estimation,
 assuming 90% of the training set compounds are in the app.domain. : 
 ````
@@ -97,13 +97,13 @@ Support
 Download
 ---
 
-###Command line application
+### Command line application
 
    * Download [2.0.0 release](https://zenodo.org/account/settings/github/repository/ideaconsult/appdomain)
 
    * Download from [Maven repository](https://nexus.ideaconsult.net/#nexus-search;quick~appdomain) 
 
-###Maven artifact
+### Maven artifact
 
     <dependency>
         <groupId>net.idea.examples.ambit</groupId>
