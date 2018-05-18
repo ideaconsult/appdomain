@@ -1,4 +1,4 @@
-###[AMBIT](http://ambit.sf.net) applicability domain estimation examples
+### [AMBIT](http://ambit.sf.net) applicability domain estimation examples
 
 * Cite as [![DOI](https://zenodo.org/badge/80501175.svg)](https://zenodo.org/badge/latestdoi/80501175) 
 
